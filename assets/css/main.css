@@ -11896,11 +11896,12 @@ textarea.form-control-lg {
   padding-inline: 5rem;
   padding-bottom: 2rem;
   color: #94897a;
+  text-align: center;
 }
 .testimonio__title {
-  text-align: center;
   padding-bottom: 0.5rem;
   padding-top: 3rem;
+  text-align: center;
 }
 .testimonio__linea {
   margin-inline: 5rem;
@@ -11909,18 +11910,18 @@ textarea.form-control-lg {
   text-align: center;
   justify-items: center;
 }
-.testimonio__caja.parrafo {
+.testimonio__parrafo {
   padding-inline: 1rem;
   padding-block: 1rem;
   font-style: italic;
 }
-.testimonio__caja.imagen {
+.testimonio__imagen {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   object-fit: cover;
 }
-.testimonio__caja.nombre {
+.testimonio__nombre {
   padding-block: 1rem;
 }
 @media (min-width: 768px) {

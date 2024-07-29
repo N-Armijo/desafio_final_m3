@@ -4,11 +4,11 @@
   padding-inline: 5rem;
   padding-bottom: 2rem;
   color: $testimonio_text;
-
+  text-align: center;
   &__title {
-    text-align: center;
     padding-bottom: 0.5rem;
     padding-top: 3rem;
+    text-align: center;
   }
   &__linea {
     margin-inline: 5rem;
@@ -16,20 +16,20 @@
   &__caja {
     text-align: center;
     justify-items: center;
-    &.parrafo {
-      padding-inline: 1rem;
-      padding-block: 1rem;
-      font-style: italic;
-    }
-    &.imagen {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-    &.nombre {
-      padding-block: 1rem;
-    }
+  }
+  &__parrafo {
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    font-style: italic;
+  }
+  &__imagen {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  &__nombre {
+    padding-block: 1rem;
   }
 //Responsividad en pantallas pequeñas
   @include md {
